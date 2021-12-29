@@ -2,5 +2,10 @@
 ### Add node to project
 #### npm init
 ## 
-### start project
+### Add vue to project
+#### npm install vue
+## 
+### Start project
 #### npm run serve
+## 
+### Enjoy the app
