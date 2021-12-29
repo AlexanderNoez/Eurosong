@@ -1,5 +1,4 @@
 # Eurosong
-##
 ### Add node to project
 #### npm init
 ## 
