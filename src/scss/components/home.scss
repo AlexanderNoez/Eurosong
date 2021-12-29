@@ -1,0 +1,40 @@
+.home_container {
+    height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    .left, .right {
+        width: 50vw;
+        height: 100vh;
+        overflow: none;
+    }
+    .right {
+        img {
+            height: 100vh;
+            width: 50vw;
+        }
+    }
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .home_text {
+            width: 50%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            h1 {
+                color: $green-accent;
+                font-size: 60px;
+            }
+            h3 {
+                font-size: 1.7em;
+                margin-bottom: 40px;
+                margin-top: 0;
+            }
+            p {
+                margin-top: 36px;
+            }
+        }
+    }
+}
